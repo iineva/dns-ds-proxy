@@ -16,3 +16,8 @@ go run github.como/iineva/dns-sd-proxy -name $SERVICE_NAME -service _smb._tcp -i
 ```shell
 docker run --rm --network host -e SD_PROXY_NAME=NevaNAS -e SD_PROXY_SERVICE=_smb._tcp -e SD_PROXY_IP=192.168.1.3 -e SD_PROXY_PORT=445 ineva/dns-sd-proxy:1.0
 ```
+
+# References
+
+- <https://github.com/grandcat/zeroconf>
+- <https://nixwang.com/2017/03/05/airplay-without-bonjour/>
